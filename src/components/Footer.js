@@ -10,7 +10,7 @@ import {
   FaLinkedin
 } from 'react-icons/fa';
 import { GiLongAntennaeBug } from "react-icons/gi";
-import { MdFingerprint } from 'react-icons/md';
+
 
 function Footer() {
   return (
@@ -30,7 +30,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn-outline'>Subscribe</Button>
           </form>
         </div>
       </section>
@@ -77,7 +77,7 @@ function Footer() {
               EXTERMINATORS
             </Link>
           </div>
-          <small className='website-rights'>sACHIN96bOY © 2021</small>
+          <small className='website-rights'>Sachin96Boy © 2021</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'
